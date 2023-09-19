@@ -188,6 +188,10 @@
 }
 
 @media screen and (max-width: 760px) {
+  .girl {
+    padding: 10px 30px;
+  }
+
   .empower {
     flex-direction: column-reverse;
     padding: 5px 1px;
