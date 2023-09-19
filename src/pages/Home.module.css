@@ -1,0 +1,248 @@
+.empower {
+  display: flex;
+  background-color: #e3f2fd;
+  margin: 40px 0;
+  padding: 20px 80px;
+  gap: 30px;
+  align-items: center;
+}
+
+.empower h1 {
+  font-size: 40px;
+}
+
+.empowertext {
+  padding: 0 50px;
+}
+
+.empower p {
+  /* padding: 0 50px; */
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.empowertext button:nth-child(1) {
+  background-color: #0288d1;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.empowertext button:nth-child(2) {
+  background-color: #fff;
+  color: gray;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.empowerbtns {
+  display: flex;
+  gap: 50px;
+}
+
+.courses {
+  margin: 100px 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  margin: 50px 0;
+  flex-wrap: no-wrap;
+}
+
+.card:nth-child(1) {
+  background-color: #e3f2fd;
+  width: 280px;
+}
+
+.card:nth-child(2) {
+  background-color: #fce4ec;
+}
+
+.card:nth-child(3) {
+  background-color: #e3f2fd;
+}
+
+.card:nth-child(4) {
+  background-color: #fce4ec;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.unlock {
+  margin: 50px 100px;
+}
+
+.unlockbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.unlock p {
+  font-size: 20px;
+  margin: 20px 0;
+  padding-right: 100px;
+}
+
+.unlockbtn button {
+  background-color: #0288d1;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 40px;
+  border: none;
+}
+
+.view {
+  color: #0288d1;
+  font-size: 20px;
+}
+
+.provide {
+  margin: 80px;
+}
+
+.provide h1 {
+  margin: 40px 0;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.provideCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.provideCard {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.stay {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  gap: 30px;
+  margin: 20px 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stayp {
+  margin: 20px 0;
+}
+
+.input {
+  margin: 20px 0;
+}
+
+.stay input {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ededed;
+  border-radius: 10px 0 0 10px;
+}
+
+.stay input:focus {
+  outline: none;
+}
+
+.stay button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0288d1;
+  color: white;
+}
+
+.about,
+.support {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer {
+  padding: 20px 80px;
+  color: white;
+  background-color: #0288d1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 760px) {
+  .empower {
+    flex-direction: column-reverse;
+    padding: 5px 1px;
+  }
+
+  .empowertext {
+    padding: 0 20px;
+    margin: 20px 0;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .courses {
+    margin: 0 20px;
+  }
+
+  .card {
+    width: 200px;
+  }
+
+  .card:nth-child(1) {
+    width: 200px;
+  }
+
+  .unlock {
+    margin: 0 30px;
+  }
+
+  .unlock p {
+    font-size: 16px;
+    padding-right: 30px;
+  }
+
+  .view {
+    font-size: 16px;
+  }
+
+  .provide {
+    margin: 80px 20px;
+  }
+
+  .provideCards {
+    grid-template-columns: 1fr;
+  }
+
+  .stay {
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+  }
+
+  .footer {
+    margin-top: 20px;
+    padding: 20px 20px;
+    font-size: 12px;
+  }
+}

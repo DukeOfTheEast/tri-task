@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #e3f2fd;
+}
+
+.navlinks {
+  display: flex;
+  gap: 30px;
+}
+
+.navbtns {
+  display: flex;
+  gap: 30px;
+}
+
+.navbtns button {
+  border: 1px solid #0288d1;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 760px) {
+  .navlinks {
+    display: none;
+  }
+
+  .nav {
+    padding: 10px 20px;
+  }
+
+  .navbtns {
+    gap: 10px;
+  }
+}
